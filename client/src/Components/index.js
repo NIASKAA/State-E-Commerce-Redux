@@ -1,0 +1,8 @@
+export {default as Cart} from './Cart/Cart'
+export {default as CartItem} from './CartItem/index'
+export {default as DeleteBtn} from './DeleteBtn/index'
+export {default as Nav} from './Nav/index'
+export {default as Jumbotron} from './Jumbotron/index'
+export {default as ProductItem} from './ProductItem/index'
+export {default as ProductList} from './ProductList/index'
+export {default as CategoryMenu} from './CategoryMenu/index'

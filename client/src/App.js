@@ -1,10 +1,11 @@
 import React from 'react'
-import {BrowserRouter, Router, Route, Switch} from 'react-router-dom'
+import {BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import {ApolloProvider, ApolloClient, InMemoryCache, createHttpLink} from '@apollo/client'
-import {setContext} from '@apollo/client/client/link/context'
+import { setContext } from '@apollo/client/link/context';
+import {Nav} from './Components'
 import {Home, Detail, NoMatch, Login, Signup, OrderHistory, Success} from './Pages'
-import {Nav} from './Components/Nav';
-import './App.css';
+import {StoreProvider} from './utils/context'
+
 
 const httpLink = createHttpLink({
   uri: '/graphql'
