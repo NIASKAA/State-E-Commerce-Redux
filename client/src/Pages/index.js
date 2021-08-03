@@ -1,0 +1,7 @@
+export {default as NoMatch} from './NoMatch/NoMatch'
+export {default as Login} from './Login/Login'
+export {default as Signup} from './SignUp/Signup'
+export {default as Home} from './Home/Home'
+export {default as Detail} from './Details/Detail'
+export {default as OrderHistory} from './OrderHistory/OrderHistory'
+export {default as Success} from './Success/Success'
